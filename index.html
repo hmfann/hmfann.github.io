@@ -37,7 +37,7 @@
                 </p>
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%">
-                <a href="images/portrait.jpeg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/portrait.jpg" class="hoverZoomLink"></a>
+                <a href="images/portrait.jpeg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/portrait.jpeg" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
@@ -55,7 +55,95 @@
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
-    <tr onmouseout="bolt3d_stop()" onmouseover="bolt3d_start()"  bgcolor="#ffffff">
+      <tr onmouseout="paper3_stop()" onmouseover="paper3_start()"  bgcolor="#ffffff">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='paper3_image'><video  width=100% height=100% muted autoplay loop>
+          <img src="images/cloud-rendering.png" width="160">
+          Your browser does not support the video tag.
+
+          </video></div>
+          <img src='images/cloud-rendering.ong' width="160">
+        </div>
+        <script type="text/javascript">
+          function paper3_start() {
+            document.getElementById('paper3_image').style.opacity = "1";
+          }
+
+          function paper3_stop() {
+            document.getElementById('paper3_image').style.opacity = "0";
+          }
+          paper3_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+<!--         <a href="https://szymanowiczs.github.io/bolt3d"> -->
+          <span class="papertitle">Streaming-Aware Neural Monte Carlo Rendering Framework with Unified Denoising-Compression and Client Collaboration</span>
+<!--         </a> -->
+        <br>
+		<strong>Hangming Fan</strong>,
+        <a href="http://www.cad.zju.edu.cn/home/huo/">Yuchi Huo</a>,
+        <a href="http://ckzheng.world/">Chuankun Zheng</a>,
+	      Chonghao Hu,	      
+        <a href="https://yuanyazhen.github.io/">Yazhen Yuan</a>,
+        <a href="http://www.cad.zju.edu.cn/home/rwang/">Rui Wang</a>,
+        <br>
+	ACM Transactions on Graphics (To be presented at SIGGRAPH 2025) August 2023
+        <br>
+        paper
+        <p></p>
+      </td>
+    </tr>
+
+		  
+
+    <tr onmouseout="paper2_stop()" onmouseover="paper2_start()"  bgcolor="#ffffff">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='paper2_image'><video  width=100% height=100% muted autoplay loop>
+          <img src="images/22interiornet.jpg" width="160">
+          Your browser does not support the video tag.
+
+          </video></div>
+          <img src='images/22interiornet.jpg' width="160">
+        </div>
+        <script type="text/javascript">
+          function paper2_start() {
+            document.getElementById('paper2_image').style.opacity = "1";
+          }
+
+          function paper2_stop() {
+            document.getElementById('paper2_image').style.opacity = "0";
+          }
+          paper2_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+<!--         <a href="https://szymanowiczs.github.io/bolt3d"> -->
+          <span class="papertitle">Data-driven Digital Lighting Design for Residential Indoor Spaces</span>
+<!--         </a> -->
+        <br>
+	<a href="https://www.renhaocheng.com/">Haocheng Ren</a>,
+		<strong>Hangming Fan</strong>,
+        <a href="http://www.cad.zju.edu.cn/home/rwang/">Rui Wang</a>,
+        <a href="http://www.cad.zju.edu.cn/home/huo/">Yuchi Huo</a>,
+	      Rui, Tang
+	      Lei Wang
+              Hujun, Bao
+        <br>
+	ACM Transactions on Graphics (Presented at SIGGRAPH 2023) June 2023
+        <br>
+	&#127941 Selected as TOG cover (<a href="https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3579817">certificate</a>).
+	<br>
+        <a href="https://coohom.github.io/LIGHTING/static/pdf/paper.pdf">paper</a>
+        /
+        <a href="https://coohom.github.io/LIGHTING">project page</a>
+        <p></p>
+      </td>
+    </tr>
+
+		  
+    <tr onmouseout="paper1_stop()" onmouseover="paper1_start()"  bgcolor="#ffffff">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
           <div class="two" id='bolt3d_image'><video  width=100% height=100% muted autoplay loop>
@@ -66,14 +154,14 @@
           <img src='images/21wskp.jpg' width="160">
         </div>
         <script type="text/javascript">
-          function bolt3d_start() {
+          function paper1_start() {
             document.getElementById('bolt3d_image').style.opacity = "1";
           }
 
-          function bolt3d_stop() {
+          function paper1_stop() {
             document.getElementById('bolt3d_image').style.opacity = "0";
           }
-          bolt3d_stop()
+          paper1_stop()
         </script>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
@@ -86,7 +174,7 @@
         <a href="http://www.cad.zju.edu.cn/home/huo/">Yuchi Huo</a>,
         	Hujun, Bao
         <br>
-	Computer Graphics Forum (presented in EGSR 2021), volume 40, Issue 4.
+	Computer Graphics Forum (Presented in EGSR 2021) July 2021
         <br>
 	&#127941 Top Cited Paper in Computer Graphics Forum 2021-2022 (<a href="http://www.cad.zju.edu.cn/home/rwang/projects/path-tracing/21wskp-cert.pdf">certificate</a>).
 	<br>
@@ -96,8 +184,6 @@
         <p></p>
       </td>
     </tr>
-
-
             
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
